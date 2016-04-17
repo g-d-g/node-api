@@ -1,7 +1,5 @@
 var express = require('express');
 var router = express.Router();
-var fs = require('fs');
-var async = require('async');
 
 // Middleware
 var example = require('./middleware/example'),
